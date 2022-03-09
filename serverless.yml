@@ -11,3 +11,5 @@ provider:
 functions:
   hello:
     handler: src/handler.index
+    timeout: 60 # seconds
+    memorySize: 128 # minimum we can set
