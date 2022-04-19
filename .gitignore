@@ -1,9 +1,4 @@
-# package directories
-node_modules
-jspm_packages
-
-# Serverless directories
-.serverless
-
-# Remove offline database files
-.dynamodb
+.DS_Store
+**/.venv
+**/node_modules
+**/offline
