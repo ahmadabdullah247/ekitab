@@ -1,13 +1,10 @@
-import { Explore } from './components/layout/explore';
-import { Home } from './components/layout/home'
-
+import { Index } from './components/index'
 
 function App() {
 
   return (
     <div className="App">
-      {/* <Home /> */}
-      <Explore />
+      <Index />
     </div>
   );
 }
