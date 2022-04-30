@@ -1,17 +1,17 @@
 import React from 'react';
 import { createStyles, Text, SimpleGrid, UnstyledButton, Anchor, Group, Container } from '@mantine/core';
-import { CreditCard, BuildingBank, Repeat, ReceiptRefund, Receipt, ReceiptTax, Report, CashBanknote, Coin, } from 'tabler-icons-react';
+import { Lego, BuildingBank, Pencil, ReceiptRefund, Receipt, Wand, Report, CashBanknote, Coin, } from 'tabler-icons-react';
 
 const mockdata = [
-  { title: 'Credit cards', icon: CreditCard, color: 'violet' },
-  { title: 'Banks nearby', icon: BuildingBank, color: 'indigo' },
-  { title: 'Transfers', icon: Repeat, color: 'blue' },
-  { title: 'Refunds', icon: ReceiptRefund, color: 'green' },
-  { title: 'Receipts', icon: Receipt, color: 'teal' },
-  { title: 'Taxes', icon: ReceiptTax, color: 'cyan' },
-  { title: 'Reports', icon: Report, color: 'pink' },
-  { title: 'Payments', icon: Coin, color: 'red' },
-  { title: 'Cashback', icon: CashBanknote, color: 'orange' },
+  { title: 'Arts & Architectet', icon: BuildingBank, color: 'gray' },
+  { title: 'Children', icon: Lego, color: 'gray' },
+  { title: 'History', icon: Pencil, color: 'gray' },
+  { title: 'Romance', icon: ReceiptRefund, color: 'gray' },
+  { title: 'Music', icon: Receipt, color: 'gray' },
+  { title: 'Fantasy', icon: Wand, color: 'gray' },
+  { title: 'Reports', icon: Report, color: 'gray' },
+  { title: 'Payments', icon: Coin, color: 'gray' },
+  { title: 'Cashback', icon: CashBanknote, color: 'gray' },
 ];
 
 const useStyles = createStyles((theme) => ({
