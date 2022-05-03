@@ -4,6 +4,7 @@ import { Home } from '../components/layout/home'
 import { NavBar } from '../components/common/navbar'
 import { Footer } from '../components/common/footer'
 import { MantineProvider  } from '@mantine/core'
+
 export function Index() {
     const links = [
         { "link": "/about", "label": "Features" },
