@@ -71,7 +71,7 @@ export function BookCard({
     <Card withBorder radius="md" className={cx(classes.card, className)} {...others}>
       <Card.Section>
         <a {...linkProps}>
-          <Image src={image} height={180} />
+          <Image src={image} height={180} withPlaceholder/>
         </a>
       </Card.Section>
 

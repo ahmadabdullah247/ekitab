@@ -4,6 +4,7 @@ import { Home } from '../components/layout/home'
 import { NavBar } from '../components/common/navbar'
 import { Footer } from '../components/common/footer'
 import { MantineProvider  } from '@mantine/core'
+import { GlobalProvider } from '../contexts/GlobalState'
 
 export function Index() {
     const links = [
@@ -55,10 +56,12 @@ export function Index() {
         }}>
         <Router>
             <NavBar links={links} />
-            <Routes>
-                <Route path="/" element={ <Home/> } />
-                <Route path="/explore" element={ <Explore/>} />
-            </Routes>
+            <GlobalProvider>
+              <Routes>
+                  <Route path="/" element={ <Home/> } />
+                  <Route path="/explore" element={ <Explore/>} />
+              </Routes>
+            </GlobalProvider>
             <Footer data={footer_links}/> 
         </Router>
     </MantineProvider>
